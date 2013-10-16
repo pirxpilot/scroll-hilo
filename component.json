@@ -1,0 +1,14 @@
+{
+  "name": "hilo",
+  "repo": "code42day/hilo",
+  "description": "Add .bottom and .top classes to document body when page is all the way up or down.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
