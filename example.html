@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Hilo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 300%;
+        background-color: rgb(128, 128, 255);
+        transition: background-color 1s ease-in-out;
+      }
+      body.top {
+        background-color: rgb(128, 0, 128);
+      }
+      body.bottom {
+        background-color: rgb(0, 128, 128);
+      }
+      .start {
+        position: fixed;
+        top: 20%;
+        left: 20%;
+        font-size: 2.5em;
+        font-weight: bold;
+        font-style: italic;
+      }
+      .ontop, .onbottom {
+        display: none;
+        position: fixed;
+        margin: 1em;
+        font-size: 1.5em;
+        color: white;
+      }
+      .top .ontop {
+        top: 0;
+        display: block;
+      }
+      .bottom .onbottom {
+        bottom: 0;
+        display: block;
+      }
+    </style>
+  </head>
+  <body class="top">
+    <div class="ontop">You're at the top</div>
+    <div class="onbottom">You're at the bottom</div>
+    <div class="start">Keep scrolling...</div>
+    <script src="build/build.js"></script>
+    <script>
+      require('hilo')();
+    </script>
+  </body>
+</html>
