@@ -3,7 +3,7 @@
   "repo": "code42day/hilo",
   "demo": "http://code42day.github.io/hilo",
   "description": "Add .bottom and .top classes to document body when page is all the way up or down.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "scroll",
     "top",

@@ -1,6 +1,6 @@
 {
   "name": "code42day-hilo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add .bottom and .top classes to document body when page is all the way up or down.",
   "scripts": {
     "test": "make check"
