@@ -1,13 +1,22 @@
+PROJECT=hilo
+
+all: check build
+
+check: lint
+
 lint:
 	jshint index.js
 
-build: components index.js
-	@component build --dev
+build: build/build.js
 
-components: component.json
-	@component install --dev
+build/build.js: node_modules index.js
+	mkdir -p build
+	browserify --require ./index.js:$(PROJECT) --outfile $@
+
+node_modules: package.json
+	npm install
 
 clean:
-	rm -fr build components
+	rm -fr build node_modules
 
-.PHONY: clean lint
+.PHONY: clean lint check all build
