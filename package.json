@@ -1,5 +1,5 @@
 {
-  "name": "code42day-hilo",
+  "name": "scroll-hilo",
   "version": "1.0.1",
   "description": "Add .bottom and .top classes to document body when page is all the way up or down.",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/code42day/hilo.git"
+    "url": "https://github.com/pirxpilot/hilo.git"
   },
   "keywords": [
     "browser",
@@ -23,9 +23,6 @@
     "classes": "component-classes",
     "event": "component-event"
   },
-  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/code42day/hilo/issues"
-  }
+  "author": "Damian Krzeminski <pirxpilot@furkot.com>",
+  "license": "MIT"
 }
