@@ -1,6 +1,6 @@
 {
   "name": "scroll-hilo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add .bottom and .top classes to document body when page is all the way up or down.",
   "scripts": {
     "test": "make check"
